@@ -29,11 +29,11 @@ const App: React.FC = () => {
               size={36}
               className="text-cyan-400"
             />
-            Fuzzy Logic Controller
+            SR TEMPERATURE CONTROLLER
           </h1>
           <p className="text-slate-400 mt-2 text-sm md:text-base max-w-2xl">
-            Autonomous HVAC control system using Mamdani fuzzy inference. Adjust
-            inputs to see how the fuzzy engine determines optimal fan speed.
+            Adjust inputs to see how the fuzzy engine determines optimal fan
+            speed.
           </p>
         </div>
       </header>

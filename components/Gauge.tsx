@@ -38,7 +38,6 @@ const Gauge: React.FC<GaugeProps> = ({ value, label }) => {
 
   return (
     <div className="relative flex flex-col items-center justify-center w-full max-w-[220px] aspect-square">
-      {/* SVG Container */}
       <svg
         viewBox={`0 0 ${size} ${size}`}
         className="w-full h-full transform rotate-[135deg]"
@@ -50,7 +49,7 @@ const Gauge: React.FC<GaugeProps> = ({ value, label }) => {
           cy={center}
           r={radius}
           fill="transparent"
-          stroke="#1e293b" // slate-800
+          stroke="#1e293b"
           strokeWidth={strokeWidth}
           strokeDasharray={circumference}
           strokeDashoffset={trackOffset}
