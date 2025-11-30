@@ -15,7 +15,7 @@ interface SurfacePlotProps {
 const SurfacePlot: React.FC<SurfacePlotProps> = ({ currentState }) => {
   const plotDivRef = useRef<HTMLDivElement>(null);
 
-  // Memoize the surface calculation so we don't re-compute the whole grid on every slider move
+  // Memorize the surface calculation so we don't re-compute the whole grid on every slider move
   const surfaceData = useMemo(() => generateSurfaceData(), []);
 
   useEffect(() => {
